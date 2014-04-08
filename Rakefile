@@ -49,3 +49,11 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
+
+desc 'Run an irb console session'
+task :irb_console do
+  exec("irb -r ./lib/a9s_rabbitmq.rb")
+end
+
+task irb: :irb_console
+

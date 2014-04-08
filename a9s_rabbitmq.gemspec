@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Julian Weber"]
   s.date = "2014-04-08"
-  s.description = "A simple utility gem for pulling rabbitmq credentials from the anyines environment supporting the bunny and amqp gem simplified configuration."
-  s.email = "jweber@anynines.com"
+  s.description = "TODO: longer description of your gem"
+  s.email = "jweber@avarteq.de"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -19,18 +19,22 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
+    "README.md",
     "Rakefile",
-    "lib/a9s_rabbitmq/utility.rb",
+    "VERSION",
+    "a9s_rabbitmq.gemspec",
     "lib/a9s_rabbitmq.rb",
+    "lib/a9s_rabbitmq/utility.rb",
     "test/helper.rb",
     "test/test_a9s_rabbitmq.rb"
   ]
-  s.homepage = "http://github.com/anynines/a9s_rabbitmq"
+  s.homepage = "http://github.com/julweber/a9s_rabbitmq"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "2.0.6"
-  s.summary = "A simple utility gem for pulling rabbitmq credentials from the anyines environment supporting the bunny and amqp gem simplified configuration."
+  s.summary = "TODO: one-line summary of your gem"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

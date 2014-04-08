@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Julian Weber"]
   s.date = "2014-04-08"
-  s.description = "TODO: longer description of your gem"
-  s.email = "jweber@avarteq.de"
+  s.description = "a9s_rabbitmq is a small utility gem to ease up the usage of the anyines.com rabbitmq service within your applications."
+  s.email = "jweber@anynines.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -30,11 +30,11 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_a9s_rabbitmq.rb"
   ]
-  s.homepage = "http://github.com/julweber/a9s_rabbitmq"
+  s.homepage = "http://github.com/anynines/a9s_rabbitmq"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "2.0.6"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "a9s_rabbitmq is a small utility gem to ease up the usage of the anyines.com rabbitmq service within your applications."
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

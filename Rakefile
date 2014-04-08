@@ -15,11 +15,11 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "a9s_rabbitmq"
-  gem.homepage = "http://github.com/julweber/a9s_rabbitmq"
+  gem.homepage = "http://github.com/anynines/a9s_rabbitmq"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "jweber@avarteq.de"
+  gem.summary = %Q{a9s_rabbitmq is a small utility gem to ease up the usage of the anyines.com rabbitmq service within your applications.}
+  gem.description = %Q{a9s_rabbitmq is a small utility gem to ease up the usage of the anyines.com rabbitmq service within your applications.}
+  gem.email = "jweber@anynines.com"
   gem.authors = ["Julian Weber"]
   # dependencies defined in Gemfile
 end
@@ -56,4 +56,3 @@ task :irb_console do
 end
 
 task irb: :irb_console
-
